@@ -1,0 +1,61 @@
+.bg-header {
+  background: linear-gradient(
+    180deg,
+    #f7931e 4.1%,
+    #f88b27 35.43%,
+    #fe7740 87.18%,
+    #ff7445 95.61%
+  );
+}
+.bg-button-warren {
+  background: linear-gradient(
+    90deg,
+    #f7931e 0%,
+    #f98c27 34%,
+    #fe7840 91%,
+    #ff7445 100%
+  );
+  mix-blend-mode: normal;
+  border-radius: 50px;
+}
+.naranjo-2 {
+  color: #fd773f;
+}
+.warren-mesa {
+  right: 0;
+  top: 0;
+}
+
+.bg-form {
+  background: linear-gradient(
+    180deg,
+    rgba(247, 147, 30, 0) 0%,
+    rgba(246, 141, 32, 0.353) 14.8%,
+    rgba(246, 138, 33, 0.655) 32%,
+    rgba(254, 119, 64, 0.78) 51.7%,
+    rgba(244, 129, 37, 0.655) 69.5%,
+    rgba(244, 124, 39, 0.341) 86.7%,
+    rgba(244, 120, 40, 0) 100%
+  );
+  opacity: 0.3;
+}
+
+.gris-rc-2 {
+  color: #3d3d3d;
+}
+
+.sunny {
+  background: linear-gradient(
+    90deg,
+    #f7931e 0%,
+    #f98c27 34%,
+    #fe7840 91%,
+    #ff7445 100%
+  );
+  mix-blend-mode: normal;
+  border-radius: 30px;
+}
+
+.bg-contacto {
+  background: #353e47;
+}

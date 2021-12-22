@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="./Normalize.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="./index.css" rel="stylesheet" />
+  </head>
+  <body class="h-full w-full">
+    <!-- Header -->
+    <header class="bg-header h-max-40 w-full py-1 px-3">
+      <div class="flex flex-row h-full w-full justify-between flex-wrap pl-10">
+        <div class="h-20 flex-none flex flex-row items-center gap-x-12">
+          <div class="w-1/3 h-full">
+            <img
+              class="h-full"
+              src="./Landing-Warren/Logo RC.svg"
+              alt="Logo RC.svg"
+            />
+          </div>
+          <div class="flex flex-row gap-x-3 text-white flex-nowrap">
+            <a href="#">Warren</a>
+            <a href="#">Cómo funciona</a>
+            <a href="#">Ayuda</a>
+          </div>
+        </div>
+        <div class="h-20 flex flex-row gap-x-3 justify-end text-white py-6">
+          <button class="flex-none border-2 rounded-full px-10">
+            Ingresar
+          </button>
+          <button class="flex-none border-2 rounded-full px-10">
+            Registrarse
+          </button>
+          <img
+            class="flex-none h-full p-1"
+            src="./Landing-Warren/Chile Flag.svg"
+            alt="Chile Flag.svg"
+          />
+        </div>
+      </div>
+    </header>
+    <!-- Seccion de Presentacion -->
+    <section class="flex flex-row w-full relative h-screen mb-44">
+      <div class="w-full h-full">
+        <div
+          class="
+            max-w-screen-xl
+            mx-auto
+            flex flex-col
+            justify-center
+            gap-y-12
+            h-screen
+          "
+        >
+          <h1 class="text-8xl font-bold">
+            ¡Hola! <br />
+            Soy Warren
+          </h1>
+          <h2 class="naranjo-2 text-4xl">
+            Me encargo de entregar las mejores <br />
+            de financiamiento e inversión.
+          </h2>
+          <button class="bg-button-warren w-1/4 text-white py-4">
+            Mas informacion
+          </button>
+        </div>
+        <div class="w-1/2 absolute h-screen warren-mesa">
+          <img
+            src="./Landing-Warren/Warren-hi_Mesa de trabajo 1.png"
+            alt="Warren-hi_Mesa de trabajo 1.png"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Seccion de Que es warren? -->
+    <section class="max-w-screen-xl mx-auto flex flex-row my-44">
+      <div class="flex-1 h-full">
+        <img src="./Landing-Warren/WarrenConect4.png" alt="WarrenConect4.png" />
+      </div>
+      <div
+        class="
+          flex-1
+          text-4xl
+          flex flex-col
+          justify-center
+          items-center
+          gap-y-5
+        "
+      >
+        <p>
+          Warren, es el robot de <span class="naranjo-2"> RedCapital</span> que
+          analiza datos e identifica las Pymes con mejores comportamientos de
+          pago.
+        </p>
+        <p>
+          Esto nos permite entregar mejores opciones de financiamiento y
+          oportunidades seguras de inversión.
+        </p>
+      </div>
+    </section>
+    <!-- Formulario de Contacto -->
+    <section class="relative h-screen w-full z-0 mb-10">
+      <div class="absolute h-full z-0 bg-form w-full"></div>
+      <div
+        class="max-w-screen-xl mx-auto flex items-center content-center h-full"
+      >
+        <form
+          class="mx-auto bg-white rounded-2xl px-auto pt-4 pb-8 mb-4 z-10 px-16"
+        >
+          <h1
+            class="
+              text-center text-5xl
+              py-10
+              font-semibold font-sans
+              gris-rc-2
+              mx-auto
+              px-8
+            "
+          >
+            Contáctanos
+          </h1>
+          <div class="mb-6 mx-auto">
+            <input
+              class="
+                shadow
+                appearance-none
+                border
+                rounded-full
+                w-full
+                py-2
+                px-3
+                text-gray-700
+                leading-tight
+                focus:outline-none focus:shadow-outline
+              "
+              id="username"
+              type="text"
+              placeholder="Nombre y Apellido"
+            />
+          </div>
+          <div class="mb-6 mx-auto">
+            <input
+              class="
+                shadow
+                appearance-none
+                border
+                rounded-full
+                w-full
+                py-2
+                px-3
+                text-gray-700
+                leading-tight
+                focus:outline-none focus:shadow-outline
+              "
+              id="company"
+              type="text"
+              placeholder="Empresa"
+            />
+          </div>
+          <div class="mb-6 mx-auto">
+            <input
+              class="
+                shadow
+                appearance-none
+                border
+                rounded-full
+                w-full
+                py-2
+                px-3
+                text-gray-700
+                leading-tight
+                focus:outline-none focus:shadow-outline
+              "
+              id="email"
+              type="text"
+              placeholder="Email"
+            />
+          </div>
+          <div class="mb-6 mx-auto">
+            <input
+              class="
+                shadow
+                appearance-none
+                border
+                rounded-full
+                w-full
+                py-2
+                px-3
+                text-gray-700
+                leading-tight
+                focus:outline-none focus:shadow-outline
+              "
+              id="phone"
+              type="number"
+              placeholder="Telefono"
+            />
+          </div>
+          <div class="flex items-center justify-between">
+            <button
+              class="
+                bg-gray-300
+                hover:bg-gray-500
+                text-gray-400
+                font-bold
+                py-1
+                px-16
+                rounded-full
+                focus:outline-none focus:shadow-outline
+                mx-auto
+                my-4
+                align-middle
+              "
+              type="button"
+            >
+              Enviar
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- Seccion de Promocion -->
+    <section class="bg-gray-700 text-white w-full">
+      <div
+        class="
+          max-w-screen-xl
+          mx-auto
+          grid grid-cols-2
+          justify-items-center
+          items-center
+          gap-2
+          relative
+          py-12
+        "
+      >
+        <div
+          class="
+            col-start-1 col-end-2
+            row-start-1 row-end-2
+            h-40
+            flex flex-col
+            text-center
+            gap-y-6
+            justify-between
+            items-center
+          "
+        >
+          <h1 class="flex-1 text-3xl font-semibold">¿Buscas invertir?</h1>
+          <p class="flex-1">
+            Ingresa a nuestro portal de inversión y <br />
+            conoce las oportunidades.
+          </p>
+          <button class="flex-1 sunny px-16 pb-1">Invertir</button>
+        </div>
+
+        <span class="absolute border-l h-44 top-12"></span>
+
+        <div
+          class="
+            col-start-2 col-end-3
+            row-start-1 row-end-2
+            h-40
+            flex flex-col
+            text-center
+            gap-y-6
+            justify-between
+            items-center
+          "
+        >
+          <h1 class="text-3xl font-semibold">¿Buscas Financiamiento?</h1>
+          <p>
+            Ingresa a nuestro portal de Pymes y conoce <br />
+            cómo conseguir financiamiento.
+          </p>
+          <button class="sunny px-12 pb-1">Solicitar financiamiento</button>
+        </div>
+      </div>
+    </section>
+    <!-- Informacion de contacto -->
+    <section class="bg-contacto text-white w-full h-80">
+      <div class="max-w-screen-xl mx-auto">
+        <div class="py-8 text-center flex flex-col items-center h-full gap-y-3">
+          <h1 class="flex-1 text-3xl font-semibold mb-4">Contacto</h1>
+          <div
+            class="flex-1 flex flex-row justify-between items-center gap-x-2"
+          >
+            <img
+              class="h-7"
+              src="./Landing-Warren/Icons-06.svg"
+              alt="Icons-07.svg - Clock"
+            />
+            <p>contacto@redcapital.cl</p>
+          </div>
+          <div
+            class="flex-1 flex flex-row justify-between items-center gap-x-2"
+          >
+            <img
+              class="h-7"
+              src="./Landing-Warren/Icons-07.svg"
+              alt="Icons-07.svg - Clock"
+            />
+            <p>+562 2233 3346 / +562 3224 9361</p>
+          </div>
+          <div
+            class="flex-1 flex flex-row justify-between items-center gap-x-2"
+          >
+            <img
+              class="h-7"
+              src="./Landing-Warren/Icons-08.svg"
+              alt="Icons-08.svg - Location GPS"
+            />
+            <p>Coronel Pereira 72, Oficina 903-904, Las Condes.</p>
+          </div>
+          <div
+            class="
+              flex-1 flex flex-row
+              justify-between
+              items-center
+              gap-x-2
+              mb-16
+            "
+          >
+            <img
+              class="h-7"
+              src="./Landing-Warren/Icons-09.svg"
+              alt="Icons-09.svg - Clock"
+            />
+            <p>Lunes a Jueves, 09:00 - 18:00 / Viernes, 09:00 - 17:00</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-gray-700 text-white w-full">
+      <div
+        class="
+          max-w-screen-xl
+          mx-auto
+          grid grid-rows-1 grid-cols-6
+          h-12
+          py-2
+          text-center
+          justify-items-center
+          items-center
+        "
+      >
+        <div class="col-start-1 col-end-2 flex flex-row gap-x-2 items-center">
+          <img
+            class="h-5"
+            src="./Landing-Warren/RRSS-instagra,.svg"
+            alt="Logo Instagram"
+          />
+          <img
+            class="h-5"
+            src="./Landing-Warren/RRSS-Twitter.svg"
+            alt="Logo Twitter"
+          />
+          <img
+            class="h-5"
+            src="./Landing-Warren/RRSS-Linkedin.svg"
+            alt="Logo Linkedin"
+          />
+        </div>
+        <div class="col-start-2 col-end-6 italic">
+          <p>RedCapital, Todos los derechos reservados 2021</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
