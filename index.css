@@ -59,3 +59,6 @@
 .bg-contacto {
   background: #353e47;
 }
+.button:hover {
+  background-color: #000000;
+}
